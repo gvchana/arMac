@@ -5,7 +5,9 @@
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
       <a-marker preset='hiro'>
-          <a-entity obj-model="obj: url('https://gvchana.github.io/arMac/247_House 15_obj.obj');"></a-entity>
+            <a-assets>
+    <video id="penguin-sledding" autoplay loop="true" src="penguin-sledding.mp4"></video>
+  </a-assets>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
